@@ -1,0 +1,30 @@
+*{
+	background: #333;
+    color: white;
+
+}
+.container1{
+	width: 80%;
+	text-align: left;
+}
+.container2{
+	text-align: right;
+	width: 500px;
+    float: right;
+
+}
+#gradts{
+	float: center;
+	font-size:50px;
+	background-image: linear-gradient(to right,orange,coral,pink,purple, violet,indigo,blue,lightblue,turquoise,green);
+	background-size: 50;
+	-webkit-text-fill-color:transparent ;
+	-webkit-background-clip: text;
+}
+.box1 h1{
+background-image: blue;
+background-clip: text;
+}
+
+
+
