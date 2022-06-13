@@ -3,6 +3,17 @@
     color: white;
 
 }
+#mainheading{
+	font-size:32px ;
+	text-align: center;
+	font-weight:1500;
+	font-style: italic bold;
+}
+#subheading{
+   text-align: center;
+   font-size: 28px;
+   font-family: Helvatica;
+}
 .container1{
 	width: 80%;
 	text-align: left;
@@ -14,9 +25,9 @@
 
 }
 #gradts{
-	float: center;
-	font-size:50px;
-	background-image: linear-gradient(to right,orange,coral,pink,purple, violet,indigo,blue,lightblue,turquoise,green);
+	text-align: center;
+	font-size:40px;
+	background-image: linear-gradient(to right,red,orange,coral,pink,purple,indigo,blue,lightblue,turquoise,green);
 	background-size: 50;
 	-webkit-text-fill-color:transparent ;
 	-webkit-background-clip: text;
@@ -25,6 +36,26 @@
 background-image: blue;
 background-clip: text;
 }
+#navbar ul{
+	font-family:Ariel, Verdana;
+	padding: 0;
+	list-style: none;
+	float: right;
+	margin-top: 5px;
+}
+#navbar li{
+	display: inline;
+   
 
-
+}
+#navbar a{
+	text-decoration: none;
+	font-size: 18px;
+	padding-left: 15px;
+}
+#blue{
+    background: skyblue;
+    border-radius: 3px;
+    padding: 5px;
+}
 
